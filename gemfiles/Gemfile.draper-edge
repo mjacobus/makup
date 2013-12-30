@@ -1,2 +1,2 @@
-gem "rails", '>= 4.0'
-gem "rails", github: "drapergem/draper"
+gem "rails", "~> 4.0"
+gem "draper", github: "drapergem/draper"

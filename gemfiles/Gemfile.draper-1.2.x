@@ -1,2 +1,2 @@
 gem "rails", ">= 4.0"
-gem "rails", ">= 1.2"
+gem "draper", "~> 1.2.0"
