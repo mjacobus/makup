@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Makup::VERSION
   s.authors     = ["Marcelo Jacobus"]
   s.email       = ["marcelo.jacobus@gmail.com"]
-  s.license     = ['MIT']
+  s.license     = 'MIT'
   s.homepage    = "https://github.com/mjacobus/makup"
   s.summary     = "Makup for Draper decorator"
   s.description = <<DESC
@@ -23,5 +23,6 @@ DESC
 
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "simplecov"
+  s.add_development_dependency "coveralls"
   s.add_development_dependency "sqlite3"
 end
