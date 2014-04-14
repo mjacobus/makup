@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    makup (0.0.1)
+    makup (0.0.3)
       draper (>= 1.0, <= 2.0)
       rails (>= 3.2, < 5.0.0)
 
