@@ -1,2 +1,4 @@
-gem "rails", ">= 4.0"
+source "https://rubygems.org"
+gemspec
+
 gem "draper", "~> 1.2.0"
