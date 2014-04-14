@@ -27,6 +27,10 @@ module Makup
       l(value)
     end
 
+    def decorate_ActiveSupport_TimeWithZone(value)
+      l(value)
+    end
+
     def decorate_Time(value)
       l(value)
     end

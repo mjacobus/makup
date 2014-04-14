@@ -1,4 +1,4 @@
 require 'spec_helper'
 
-describe DummyModel do
+describe HomeDecorator do
 end

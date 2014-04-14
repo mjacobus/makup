@@ -1,0 +1,7 @@
+<h1>Dummy!</h1>
+<% decorate(@dummy) do |decorator| %>
+  <p>Date: <%= decorator.created_at %></p>
+  <p>DateType: <%= decorator.created_at.class.to_s %></p>
+  <p>True: <%= decorator.true %></p>
+  <p>False: <%= decorator.false %></p>
+<% end %>

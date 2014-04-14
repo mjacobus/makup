@@ -19,18 +19,23 @@ describe Makup::Decorator do
       expect(subject.decorate(time)).to eq(I18n.l(time))
     end
 
-    it "decorates Boolean", pending: true do
-      expect(subject.decorate(true)).to eq('Yes')
-      expect(subject.decorate(false)).to eq('No')
+    it "decorates Boolean" do
+      expect(subject.decorate(true)).to eq('Sim')
+      expect(subject.decorate(false)).to eq('Não')
     end
 
     it "decorates Float" do
-      expect(subject.decorate(1_000_000.21)).to eq('1,000,000.21')
-      expect(subject.decorate(1_000_000.211)).to eq('1,000,000.211')
+      expect(subject.decorate(1_000_000.21)).to eq('1.000.000,21')
+      expect(subject.decorate(1_000_000.211)).to eq('1.000.000,211')
     end
 
     it "decorates Fixnum" do
-      expect(subject.decorate(1_000_000)).to eq('1,000,000')
+      expect(subject.decorate(1_000_000)).to eq('1.000.000')
+    end
+
+    it "decorates ActiveSupport::TimeWithZone" do
+      time = Time.zone.now
+      expect(subject.decorate(time)).to eq(I18n.l(time))
     end
   end
 
