@@ -19,7 +19,7 @@ DESC
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   s.add_dependency "rails", ">= 3.2", "< 5.0.0 "
-  s.add_dependency "draper", ">= 1.0", "<= 2.0"
+  s.add_dependency "draper", ">= 1.2", "<= 5.0"
 
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "simplecov"
