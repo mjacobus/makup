@@ -1,4 +1,10 @@
 source "https://rubygems.org"
-gemspec
 
 gem "draper", "~> 1.0.0"
+
+gem "rails", ">= 3.2", "< 5.0.0 "
+gem "rspec-rails"
+gem "simplecov"
+gem "coveralls"
+gem "sqlite3"
+gem "capybara"
