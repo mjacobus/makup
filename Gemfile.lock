@@ -145,7 +145,7 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tins (1.1.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     xpath (2.0.0)
       nokogiri (~> 1.3)
